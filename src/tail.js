@@ -7,7 +7,7 @@ const filePath = process.argv[2];
 const n = process.argv[3];
 
 // Asynchronously count the number of lines in the file
-async function countLines(filePath) {
+async function countLines(filePath) { 
     try {
         // Create a read stream from the file
         const fileStream = fs.createReadStream(filePath);
