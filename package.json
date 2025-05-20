@@ -1,4 +1,18 @@
 {
+  "name": "linux-commands",
+  "version": "1.0.0",
+  "description": "A custom CLI toolset that includes wc, head, tail, and ls functionality",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "wc": "node index.js wc",
+    "head": "node index.js head",
+    "tail": "node index.js tail",
+    "ls": "node index.js ls"
+  },
+  "author": "Adarsh",
+  "license": "MIT",
   "dependencies": {
     "node": "^22.1.0"
   }
