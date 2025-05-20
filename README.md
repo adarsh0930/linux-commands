@@ -40,7 +40,7 @@ Or if using npm scripts:
 ```
 npm run <command> -- <arguments>
 ```
-**📂 Commands & Examples**
+## 📂 Commands & Examples
 
 **🔢 wc — Word Count**
 ```
