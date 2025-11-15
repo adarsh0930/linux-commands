@@ -37,12 +37,4 @@ async function ls(directoryPath, options = []) {
     }
 }
 
-const directoryPath = './';
-const options = process.argv;
-
-
-ls(directoryPath, options)
-    .then(output => {
-        console.log(output.join('\n'));
-    })
-    .catch(error => console.error(error));
+module.exports = ls

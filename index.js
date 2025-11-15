@@ -18,8 +18,7 @@ async function main() {
             head(filePath, headLines);
             break;
         case 'tail':
-            // Dynamic import of tail.js since it's an async function
-            const tailModule = require('./src/tails');
+            const tailModule = require('./src/tail');
             const tailArgs = args[1] ? parseInt(args[1]) : 10;
             const lineCount = await tailModule.countLines(filePath);
             await tailModule.goToNthLine(filePath, tailArgs, lineCount);
